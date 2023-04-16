@@ -60,5 +60,19 @@
                 <description>Called when the user releases the handle and the value has changed.</description>
             </property>
         </propertyGroup>
+        <propertyGroup caption="Appearance">
+            <property key="useCustomMarkers" type="boolean" defaultValue="false">
+              <caption>Use Custom Markers</caption>
+              <description>If true, use modeled custom markers</description>
+            </property>
+            <property key="lowMarker" type="widgets" required="false">
+              <caption>Low Marker</caption>
+              <description></description>
+            </property>
+            <property key="highMarker" type="widgets" required="false">
+              <caption>High Marker</caption>
+              <description></description>
+            </property>
+        </propertyGroup>
     </properties>
 </widget>
